@@ -1,0 +1,79 @@
+
+
+body {
+    text-align: center; 
+    background-color: lightgray;
+    font-family: "Verdana";
+    
+}
+
+
+
+#header {
+    text-align: center;
+    margin-left: 33%;
+    margin-right: 33%;
+    
+}
+
+#section-1 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    background-color: whitesmoke;
+	padding-left: 15%;
+	padding-right: 15%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    
+}
+
+#section-1 h2 {
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+#section-2{
+    width: 40%;
+    min-height: 400px;
+    max-height: 400px;
+    padding: 5%;
+    background-color: whitesmoke;
+    box-sizing: border-box;
+    float: left;
+    margin: 25px;
+    
+}
+
+#section-3{
+    width: 40%;
+    min-height: 400px;
+    max-height: 400px;
+    padding: 5%;
+    background-color: whitesmoke;
+    box-sizing: border-box;
+    float: right;
+    margin: 25px;
+    
+    
+}
+
+/*try to make this empty space before the 2 boxes but before footer*/
+
+#empty-space {
+    width: 30%;
+    min-height: 200px;
+    box-sizing: border-box;
+    
+}
+
+#footer {
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: lightgray;
+  text-align: center;
+  position: fixed;
+}
+
