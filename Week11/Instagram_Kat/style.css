@@ -1,0 +1,159 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+
+body {
+    margin: 0;
+    font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: deepskyblue
+  text-decoration: none;
+}
+
+.container {
+    width: 990px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.row {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+/* Navbar */
+
+.navbar {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar .container {
+    border-bottom: 1px solid #333;
+    padding: 26px 0;
+}
+
+.navbar .navbar__content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 35px;
+    width: 100%;
+}
+
+.navbar .navbar__item {
+    flex-grow: 1;
+}
+
+.navbar .logo img {
+    height: 45px;
+    width: 164px;
+    margin-top: -10px;
+}
+
+.navbar .search {
+    height: 28px;
+    flex-grow: 0;
+}
+
+.navbar .search input {
+    height: 100%;
+    width: 215px;
+    text-align: center;
+    border: 2px solid #EEE;
+    border-radius: 2px;
+}
+
+.navbar .nav-buttons {
+    align-items: center;
+    flex-direction: row;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navbar .nav-buttons .nav-buttons__item {
+    font-size: 14px;
+}
+
+.navbar .nav-buttons .nav-buttons__item: {
+    margin-left: 20px;
+}
+
+.btn {
+    color: deepskyblue;
+    background-color: white;
+    border: 2px deepskyblue ;
+    padding: 3px;
+    border-radius: 2px;
+}
+
+.btn.btn-solid {
+    color: white;
+    background-color: deepskyblue;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+/* Profile */
+
+.profile {
+    padding: 35px 65px;
+}
+
+.profile .profile-image,
+.profile .profile-data {
+    vertical-align: top;
+    display: inline-block;
+}
+
+.profile .profile-data {
+    margin-left: 65px;
+}
+
+.profile .profile-image img {
+    width: 145px;
+}
+
+.profile .btn {
+    font-size: 16px;
+    margin-left: 45px;
+}
+
+.profile .profile-data h1 {
+    font-weight: normal;
+}
+
+/* Images */
+
+.images {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.images .image {
+    width: 306px;
+    position: relative;
+}
+
+.images .image img {
+    width: 100%;
+    margin-top: 21px; /* (960 - 918) / 2 */
+}
+
+
+#footer {
+    background-color:rgb(172, 171, 188);
+    font-size: 15px;
+}
